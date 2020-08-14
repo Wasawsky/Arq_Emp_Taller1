@@ -4,7 +4,9 @@ Arquitecturas Empresariales 2020-2
 
 ## Generalidades
 
-Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo
+Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo.
+
+Puede encontrar el informe en ***Arq_Emp_Taller1\src\site\resources\Informe.pdf***
 
 ### Prerrequisitos
 
@@ -72,6 +74,7 @@ Si necesita casos de prueba vaya a **Arq_Emp_Taller1\src\test\resources\data** p
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [GIT](https://git-scm.com/) - Environment Version Control System
+* [Java](https://www.java.com/es/) - General-purpose programming language
 
 ## Sobre el autor
 
