@@ -1,7 +1,7 @@
 package edu.escuelaing.arep.taller1.app;
 
 import java.io.IOException;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 /**
  * Calculadora con operaciones que se puede extender a otras funcionalidades
@@ -61,7 +61,7 @@ public class Calculator {
     }
 
     public static void main(String args[]){
-        /*
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Direccion archivo:  ");
         String file = scanner.nextLine();
@@ -69,6 +69,6 @@ public class Calculator {
         LinkedList list = new LinkedList();
         readFile(file, list);
         System.out.println("Promedio:" +calculateMean(list.toArray())+" Desviacion estandar: "+calculateDeviation(list.toArray()));
-        */
+        
     }
 }
