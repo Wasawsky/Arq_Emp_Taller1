@@ -7,7 +7,6 @@ import java.util.Scanner;
  * Calculadora con operaciones que se puede extender a otras funcionalidades
  */
 public class Calculator {
-    
     /**
      * Calcula la media de los datos
      * @param array array que representa la LinkedList
@@ -21,7 +20,6 @@ public class Calculator {
         }
         return sum/n;
     }
-
     /**
      * Calcula la desviacion estandar de una muestra de datos
      * @param array Array que contiene los datos
@@ -36,10 +34,9 @@ public class Calculator {
         }
         return Math.sqrt((sumax/(n-1)));
     }
-
     /**
      * Calcula la desviacion estandar de los datos
-     * @param list Array que representa los datos de la LinkedList
+     * @param array Array que representa los datos de la LinkedList
      * @return Desviacion estandar de los datos y la media
      */
     public static double calculateDeviation(Double[] array){
@@ -49,7 +46,7 @@ public class Calculator {
     /**
      * Lee un archivo con muestra estadisticas para ser almacenadas en una coleccion
      * @param fileName Nombre del archivo a leer
-     * @param collection Coleccion donde se van a guardar los datos
+     * @param list LinkedList donde se van a guardar los datos
      */
     public static void readFile(String fileName, LinkedList list) {
         FileHandler handler = new FileHandler(fileName);
@@ -60,6 +57,10 @@ public class Calculator {
         }
     }
 
+    /**
+     * Metodo Principal del Proyecto
+     * @param args
+     */
     public static void main(String args[]){
         
         Scanner scanner = new Scanner(System.in);

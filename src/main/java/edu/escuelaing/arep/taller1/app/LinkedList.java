@@ -13,13 +13,20 @@ public class LinkedList
         this.lastNode = null;
     }
 
+    /**
+     * Constructor que permite construir una LinkedList apartir de un array con valores de tipo Double
+     * @param array donde estan los elementos que queremos convertir a LinkedList
+     */
     public LinkedList(Double[] array){
         for (int i=0;i<array.length;i++){
             this.add(array[i]);
         }
     }
 
-
+    /**
+     * Agrega un nuevo nodo a la LinkedList
+     * @param n el valor que tendra el nuevo nodo
+     */
     public void add(Double n){
         Node t = new Node(n);
         if (this.isEmpty()){
@@ -32,6 +39,10 @@ public class LinkedList
         }
     }
 
+    /**
+     * Permite consultar el tamaño de la LinkedList
+     * @return un entero que indica el tamaño de la Linkedlist
+     */
     public int size(){
         int length = 1;
         Node temp = firstNode;
@@ -42,6 +53,10 @@ public class LinkedList
         return length;
     }
 
+    /**
+     * Permite eliminar un nodo en la LinkedList
+     * @param node el nodo que se quiere eliminar de la estructura
+     */
     public void remove(int node){
         Node temp = firstNode;
         int flag = 1;
@@ -55,6 +70,10 @@ public class LinkedList
         }
     }
 
+    /**
+     * Este metodo permite pasar de una LinkedList a representarla en un arreglo 
+     * @return Un arreglo con los valores que pertenecen a la LinkedList
+     */
     public Double[] toArray(){
         Node temp = firstNode;
         Double[] array = new Double[this.size()];
@@ -64,10 +83,18 @@ public class LinkedList
         }
         return array;
     }
+
+    /**
+     * Permite saber si la LinkedList esta vacia o no
+     * @return boolean Si esta vacia o no
+     */
     public boolean isEmpty(){
         return firstNode == lastNode && lastNode == null;
     }
 
+    /**
+     * Permite visualizar la LinkedList
+     */
     public void preview(){
         Node temp = firstNode;
         for (int i = 0; i<this.size();i++){
@@ -96,26 +123,5 @@ public class LinkedList
     public String toString() {
         return "Primer Nodo: " + firstNode.getValue() + " Ultimo Nodo: " + lastNode.getValue();
     }
-
-    public static void main(String[] args) {
-        //LinkedList lista = new LinkedList();
-        //int[] array = {1,5,7,5};
-        //LinkedList lista = new LinkedList(array);
-        //System.out.println(lista.isEmpty());
-        //lista.add(1);
-        //lista.add(3);
-        //lista.add(7);
-        //lista.add(10);
-        //lista.add(15);
-        //System.out.println(lista.toString());
-        //System.out.println(lista.size());
-        //System.out.println(lista.isEmpty());
-        //lista.preview();
-        //lista.remove(3);
-        //System.out.println();
-        //lista.preview();
-    }
-
-    
 }
 
