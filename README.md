@@ -64,6 +64,9 @@ https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/test/resources/data
 ### Funcionalidades
 
 Este proyecto permite calcular la media aritmética de un conjunto de valores, además podemos hallar la desviación estándar de los datos.
+El diagrama presenta la estructura del proyecto:
+
+![diagram](https://github.com/Wasawsky/Arq_Emp_Taller1/blob/master/src/site/resources/diagram.JPG?raw=true)
 
 ## Uso
 
