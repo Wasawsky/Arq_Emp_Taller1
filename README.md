@@ -6,7 +6,8 @@ Arquitecturas Empresariales 2020-2
 
 Este repositorio presenta un ejercicio básico arquitecturas empresariales, usando las herramientas Maven, Git y JAVA para su desarrollo.
 
-Puede encontrar el informe en ***Arq_Emp_Taller1\src\site\resources\Informe.pdf***
+Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/site/resources
+
 
 ### Prerrequisitos
 
@@ -56,7 +57,9 @@ Ejecute el comando
 mvn test
 ```
 
-Para que se ejecuten los casos de prueba del proyecto, puede ver su implementación en ***Arq_Emp_Taller1\src\test\java\edu***
+Para que se ejecuten los casos de prueba del proyecto, puede ver su implementación en 
+https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/test/resources/data
+
 
 ### Funcionalidades
 
@@ -68,7 +71,7 @@ Puede ejecutar el método principal de la clase Calculator.java desde la consola
 
 Podrá visualizar la media aritmética de los datos y la desviación estándar de los mismos.
 
-Si necesita casos de prueba vaya a **Arq_Emp_Taller1\src\test\resources\data** para ver los casos que se usan en las pruebas. 
+Si necesita casos de prueba vaya a https://github.com/Wasawsky/Arq_Emp_Taller1/tree/master/src/test/resources/data para ver los casos que se usan en las pruebas. 
 
 ## Construido con
 
